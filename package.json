@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --env.development --config ./myconfig/webpack.base.js",
+    "prod": "webpack --env.production --config ./myconfig/webpack.base.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "qs": "^6.9.1"
+  }
+}
